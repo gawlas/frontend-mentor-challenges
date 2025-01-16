@@ -27,6 +27,7 @@ body {
     border-radius: 8px;
     background-color: var(--color-white);
     color: var(--color-dark-grayish-blue);
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.24);
 }
 
 .testimonials__mark {
@@ -51,11 +52,11 @@ body {
 }
 
 .testimonials__avatar--border-a {
-    border: 2px solid var(--color-light-violet);
+    outline: 2px solid var(--color-light-violet);
 }
 
 .testimonials__avatar--border-b {
-    border: 2px solid var(--color-moderate-violet);
+    outline: 2px solid var(--color-moderate-violet);
 }
 
 .testimonials__name {
@@ -104,9 +105,9 @@ body {
     color: var(--color-light-gray);
 }
 
-@media (min-width: 768px) {
+@media (min-width: calc(768rem / 16)) {
     .testimonials {
-        width: 550px;
+        width: calc(550rem / 16);
         margin: 71px auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -134,9 +135,9 @@ body {
     }
 }
 
-@media (min-width: 1150px) {
+@media (min-width: calc(1150rem / 16)) {
     .testimonials {
-        width: 1110px;
+        width: calc(1110rem / 16);
         margin: 164px auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
