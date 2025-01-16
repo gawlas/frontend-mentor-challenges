@@ -137,7 +137,7 @@ body {
 @media (min-width: 1150px) {
     .testimonials {
         width: 1110px;
-        margin: 71px auto;
+        margin: 164px auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 30px;
